@@ -1,9 +1,8 @@
-
 #[derive(Eq, PartialEq, Debug)]
-struct Options {
-    prompt: String,
-    suppress_byte_counts: bool,
-    file_name: Option<String>
+pub struct Options {
+    pub prompt: String,
+    pub suppress_byte_counts: bool,
+    pub file_name: Option<String>
 }
 
 impl Options {
